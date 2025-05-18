@@ -1,0 +1,47 @@
+Hello, this is for a personal project, a game I want to make for my mom.
+
+I want a portrait orientation, mobile friendly, match-three puzzle game with a blue cat theme. Players should swap adjacent cat icons to form matches of three or more identical cats to earn points. The game should include levels with increasing difficulty, special power-ups, and a visually appealing design. The game should include a settings section to upload your own transparent/non-transparent png for the cat place holders and the 2 powerups.
+Core Features:
+Game Board:
+A grid-based game board (e.g., 8x8) where cat-themed tiles appear.
+Cats should be represented by 8 different icons 
+Powerups should be represented by 2 more cat types a rainbow cat icon and a comb cat icon
+
+Game Mechanics:
+Swapping: Players can drag or tap adjacent tiles to swap them.
+Matching: If a swap creates a row or column of 3+ identical cats, they disappear, and new cats fall into place.
+Scoring: Points awarded based on matches (e.g., 3 cats = 50 pts, 4 cats = 100 pts, etc.).
+
+Special Elements & Power-ups:
+Bomb Cat: Match 4 cats in a row to create a bomb that clears surrounding tiles.
+Rainbow Cat: Match 5 cats in an L/T shape to create a rainbow cat that clears all cats of one type.
+
+Level Progression:
+Each level has a target score or objective (e.g., clear 50 orange cats in 30 moves).
+Difficulty increases with fewer moves or more obstacles.
+•	50 levels with increasing difficulty
+
+
+UI/UX:
+Responsive Design: Works on both mobile & desktop (touch-friendly).
+Start Screen: Play button, settings, level selection.
+In-Game UI: Moves left, score, level goal, pause button.
+
+Win/Lose Screens: "Level Complete!" or "Try Again?" with replay options.
+:
+
+Cute Cat Art: Playful, colorful cat icons and backgrounds.
+
+Technical Requirements:
+HTML/CSS/JS:
+Flexbox/Grid for responsive layout.
+CSS animations for smooth tile movements.
+
+JavaScript:
+Game state management (board, score, moves).
+Drag-and-drop or touch event handling.
+Match detection algorithm (check rows/columns).
+Level generation & win/lose conditions
+
+IMPORTANT: Allow for me to be able to replace the cat icons with my own images.
+IMPORTANT: When a powerup is created, make sure the powerup is there and working to achieve its purpose when it is swapped with another tile.
